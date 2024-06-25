@@ -1,0 +1,26 @@
+//Rodar no terminal bash para funcionar o CSS:
+//sass --watch assets/scss/style.scss:assets/css/style.css
+
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+//Variaveis
+@import "./variaveis.scss";
+
+//Components
+@import "./header.scss";
+@import "./nav-produtos.scss";
+@import "./banners-promocionais-estatico.scss";
+@import "./produtos.scss";
+@import "./footer.scss";
+@import "./responsive.scss";
+@import "./produtos-compra.scss";
+
+//Framework
+@import "./bootstrap.scss";
+
+//Components Bootstrap
+@import "./breadcrumb.scss";
+
+//Config
+@import "./config.scss";
